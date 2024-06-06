@@ -6,14 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="a9995146-9bdb-4d34-9b7d-c50573a4da8c" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/elizabethsavva/resttemplate/Communication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/elizabethsavva/resttemplate/RestTemplateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/elizabethsavva/resttemplate/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/elizabethsavva/resttemplate/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/elizabethsavva/resttemplate/RestTemplateApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,28 +45,75 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2hUJNfdvbEAh8aCceLrLrkybLbF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.RestTemplateApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.RestTemplateApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Spring Boot.RestTemplateApplication">
+    <configuration name="RestTemplateApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.elizabethsavva.resttemplate.RestTemplateApplication" />
+      <module name="Rest-Template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.elizabethsavva.resttemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Rest-Template" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.elizabethsavva.resttemplate.RestTemplateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RestTemplateApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24fca987" />
         <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
       </set>
     </attachedChunks>
@@ -62,7 +126,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717642686752</updated>
-      <workItem from="1717642688412" duration="9000" />
+      <workItem from="1717642688412" duration="187000" />
+      <workItem from="1717642957824" duration="28000" />
+      <workItem from="1717643036352" duration="167000" />
+      <workItem from="1717643259958" duration="17000" />
+      <workItem from="1717643291016" duration="48000" />
+      <workItem from="1717643352391" duration="102000" />
+      <workItem from="1717643479273" duration="69000" />
+      <workItem from="1717643588933" duration="360000" />
+      <workItem from="1717644157534" duration="363000" />
+      <workItem from="1717644539281" duration="1864000" />
+      <workItem from="1717675776673" duration="128000" />
+      <workItem from="1717676314824" duration="206000" />
+      <workItem from="1717676624392" duration="79000" />
+      <workItem from="1717676776623" duration="26000" />
+      <workItem from="1717676841789" duration="390000" />
+      <workItem from="1717677312801" duration="242000" />
+      <workItem from="1717677659789" duration="999000" />
+      <workItem from="1717682858449" duration="707000" />
+      <workItem from="1717683639159" duration="256000" />
+      <workItem from="1717683903979" duration="226000" />
+      <workItem from="1717684213801" duration="21000" />
+      <workItem from="1717688013265" duration="143000" />
+      <workItem from="1717690141679" duration="65000" />
+      <workItem from="1717690237840" duration="112000" />
+      <workItem from="1717708212498" duration="397000" />
     </task>
     <servers />
   </component>
